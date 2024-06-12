@@ -1,0 +1,167 @@
+.w3-margin-bottom {
+  margin-bottom: 16px;
+}
+.w3-padding-large {
+  padding: 24px;
+}
+.w3-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.w3-tag {
+  padding: 4px 8px;
+  margin-bottom: 4px;
+}
+.w3-bar-item {
+  padding: 8px 16px;
+}
+
+.social-icons {
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.social-icons li a {
+  color: #333;
+  font-size: 20px;
+}
+
+.container.mt-5 {
+  width: 100%;
+  min-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald";
+}
+body {
+  font-family: "Open Sans";
+}
+.janes-world {
+  background: #000;
+  font-size: 18px;
+  font-family: "Oswald";
+  color: #fff;
+}
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: inline-block;
+}
+img.img-fluid.my-4 {
+  height: 100%;
+  width: 100%;
+}
+.navbar-nav {
+  display: flex;
+  float: left;
+}
+.w3-white,
+.w3-hover-white:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.modal-body {
+  width: 100%;
+}
+.subscribe-btn-css {
+  background: red;
+  width: 100%;
+}
+.modal-title {
+}
+
+.tag-background {
+  background: #f1f1f1;
+  color: #000;
+  font-family: "Open Sans";
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.card-body.d-flex {
+  text-align: center;
+  justify-content: center;
+}
+
+/* testing css with media queries   */
+.position-absolute {
+  color: white;
+}
+
+/* Media query for small devices (phones) */
+@media (max-width: 689px) {
+  .position-absolute {
+    top: 0%;
+    bottom: 25%;
+    left: 30%;
+    transform: translateX(-10%);
+    text-align: center;
+  }
+}
+
+/* Media query for medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+  .position-absolute {
+    bottom: 30%;
+    left: 5%;
+    text-align: left;
+  }
+}
+
+/* Media query for large devices (laptops/desktops) */
+@media (min-width: 993px) {
+  .position-absolute {
+    bottom: 35%;
+    left: 5%;
+    text-align: left;
+  }
+}
+.displaying-design {
+  background: red;
+  width: 100%;
+  color: #fff;
+}
+.move-to-top-btn {
+  background: #000;
+  color: #fff;
+}
+.footer-bg {
+  background: #616161 !important;
+}
+.move-to-top-btn:hover {
+  background: grey;
+  color: black;
+}
+.btn-success {
+  background-color: #ffffff;
+  color: #fff;
+}
+.like-btn {
+  color: #000000;
+  background: rgb(255, 255, 255);
+  border: 2px solid grey;
+}
+.to-the-top-text {
+  color: #fff;
+  text-decoration: none;
+}
+.to-the-top-text:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.social-icon a {
+  color: #fff;
+}
+.social-icon a:hover {
+  color: #000;
+  background: #fff;
+}
